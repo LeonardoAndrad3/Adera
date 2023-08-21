@@ -1,6 +1,6 @@
 // import React from 'react';
 // import {View} from 'react-native';
-import { Text, Menu, Main, Icon} from "./style";
+import {Text, Menu, Main, Icon, MenuResponsivo, Line} from "./style";
 import AderaIcon from "~/imgs/AderaIcon.svg"
 
 export default function NavBar() {
@@ -13,6 +13,13 @@ export default function NavBar() {
         <Text href="">Team</Text>
         <Text href="">Services</Text>
         <Text href="">Contact</Text>
+
+      {/* ...MenuBox */}
+        <MenuResponsivo id="menuBox">
+          <Line></Line>
+          <Line></Line> 
+          <Line></Line>
+        </MenuResponsivo>
         </Menu>
     </Main>
   );

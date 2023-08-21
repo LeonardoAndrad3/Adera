@@ -1,25 +1,39 @@
 import styled from "styled-components"
 
-export const Text = styled.a`
-    margin: 0px;
-    font-size: 26px;
+/* Util values */
+
+let menuBox = window.document.getElementById("menuBox")
+
+/* ... */
+
+const Text = styled.a`
+    font-size: 22px;
     font-weight: normal;
     color: white;
     height: auto;
     width: auto;
     text-decoration: none;
+
+    @media  (max-width: 900px){
+        display: none;
+    }
 `;
 
-export const Menu = styled.div`
+const Menu = styled.div`
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
     align-items: center;
-    gap: 2em;
-    margin-right: 2em;
+    gap: 1em;
+    margin-right: 1em;
+
+    @media  (max-width: 900px){
+        grid-template-columns: auto;
+    }
+
 `;
 
-export const Main = styled.div`
-    padding-top: 3px;
+const Main = styled.div`
+    padding-top: 8px;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
@@ -32,10 +46,38 @@ export const Main = styled.div`
     width: 99.7%;
 `;
 
-
-export const Icon =  styled.img`
+const Icon =  styled.img`
     padding-left: 1em;
     background: transparent;
-    width: 100px;
+    width: 80px;
     height: auto;
-`
+`;
+
+const MenuResponsivo = styled.div`
+
+    display: none;  
+    width: 20px;
+    height: 20px;
+
+    @media (max-width: 899px) {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+`;
+
+const Line = styled.div`
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+`;
+
+
+
+export {Icon, Main, Menu, Text, MenuResponsivo, Line}
+
+
