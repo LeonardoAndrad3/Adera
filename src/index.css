@@ -1,10 +1,18 @@
 :root{
 
+  --color-text-primary: #A56DFF;
+  --color-text-segund: #6D76E3;
+  --color-text-three: #67D1FF;
+  --color-text-four: #33548A;
+
+
+
   padding: 0px;
   margin: 0;
   box-sizing: border-box;
 
   overflow: visible;
+  overflow-x: hidden;
 
   ::-webkit-scrollbar{
     width: 8px;

@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 export const ButtonS = styled.button`
-    background: black;
-    border-radius: 2px;
+    background: rgb(87,119,182, 40%);
+    width: 300px;
+    border-radius: 10px;
+    border: none;
 `;
 
 export const Text = styled.h1`

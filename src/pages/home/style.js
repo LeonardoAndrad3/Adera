@@ -34,3 +34,4 @@ export const TitleContent = styled.div`
     transform: translate(-50%, -50%);
     text-align: center;
 `
+

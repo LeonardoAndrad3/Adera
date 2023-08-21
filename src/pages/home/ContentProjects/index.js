@@ -1,16 +1,13 @@
 import React from 'react';
-import {TitleProjetct, ContentTitle, Title, GroupGrid, MainGroupGrid} from './style'
+import {GroupGrid, MainGroupGrid} from './style'
 import ItemGrid from './ItemGrid';
+import CustomTitle from 'components/CustomTitle';
 
 export default function ContentProjects(){
     return( 
         <>
-        <TitleProjetct>
-            <ContentTitle>
-                <Title>Projetos</Title>
-            </ContentTitle>
-        </TitleProjetct>
-  
+
+        <CustomTitle text={"Projeto"}></CustomTitle>
 
         <MainGroupGrid>
             <GroupGrid>
