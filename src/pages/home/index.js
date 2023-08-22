@@ -3,6 +3,7 @@ import React from "react";
 import { Back, TitleContent, H1, H3, Span} from "./style";
 import ContentProjects from "./ContentProjects";
 import About from "./About";
+import Team from "./Team";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       </TitleContent>
       <ContentProjects/>
       <About/>
+      <Team/>
     </>
   );
 }

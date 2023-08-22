@@ -2,8 +2,6 @@ import styled from "styled-components"
 
 /* Util values */
 
-let menuBox = window.document.getElementById("menuBox")
-
 /* ... */
 
 const Text = styled.a`

@@ -13,7 +13,7 @@ export default function About(){
                 rotate={-90}
                 ></CustomTitle>
                 <Text>
-                  <Span color={"primary"}>A ADÉRA</Span> é uma empresa de <Span color={"three"}>desenvolvimento web e mobile</Span> fundada em 2023, com uma equipe apaixonada por criar sites e aplicativos inovadores que se <Span color={"segund"}>destacam no mercado digital</Span>. Nós nos esforçamos para fornecer soluções personalizadas e de alta qualidade que atendam às necessidades exclusivas de nossos clientes.
+                &emsp; <Span color={"primary"}>A ADÉRA</Span> é uma empresa de <Span color={"three"}>desenvolvimento web e mobile</Span> fundada em 2023, com uma equipe apaixonada por criar sites e aplicativos inovadores que se <Span color={"segund"}>destacam no mercado digital</Span>. Nós nos esforçamos para fornecer soluções personalizadas e de alta qualidade que atendam às necessidades exclusivas de nossos clientes.
                 </Text>
 
               

@@ -11,7 +11,12 @@ const Main = styled.main`
     text-align: center;
     justify-content: center;
     margin-bottom: 10em;
+    margin-top: 6em;
 
+    @media (max-width: 1400px) {
+        background: transparent;
+        margin-bottom: 4em;
+    }
 
 `
 
@@ -19,7 +24,7 @@ const ContentText = styled.div`
     margin: auto;
     height: auto;
     width: 80%;       
-    background: rgb(217,217,217, 17%);
+    background: rgb(255,255,255, 10%);
     border-radius: 8px;
     min-height: 400px;
 

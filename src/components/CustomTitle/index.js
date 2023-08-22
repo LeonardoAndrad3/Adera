@@ -5,8 +5,9 @@ export default function CustomTitle(props){
     return(
         <TitleProjetct 
         position={props.position} 
-        rotate={props.rotate}>
-
+        rotate={props.rotate}     
+        className={props.newStyled}>
+   
             <ContentTitle>
                 <Title>
                     {props.text}

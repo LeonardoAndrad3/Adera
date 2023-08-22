@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 const Title = styled.h1`
     font-size: 50px;
@@ -24,13 +24,18 @@ const ContentTitle = styled.div`
 `
 
 const TitleProjetct = styled.div`
-    position: ${(props) => props.position ? "absolute" : "relative"
-    };
-    transform: 
-    rotate(${(props) =>  props.rotate}deg) 
-    translate(-10%, -100%);
-    display: flex;
-    background-color: transparent;
-    justify-content: right;
+    ${(props) => {
+        return css`position: ${props.position  ? 'absolute' : 'relative'
+        };
+        transform: 
+        rotate(${props.rotate}deg) 
+        translate(-10%, -100%);
+        display: flex;
+        background-color: transparent;
+        justify-content: right;`;
+    }};
 `
+
+
+
 export {Title, ContentTitle, TitleProjetct}
