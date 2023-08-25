@@ -40,7 +40,9 @@
 
 
 body {
-  background-color: rgb(36, 36, 36);
+  background: radial-gradient(rgb(10,2,20, 80%),
+  rgb(10,2,20, 100%),
+  rgb(10,2,40, 90%)) ;
   box-sizing: border-box;
   padding: 0px;
   margin: 0;
