@@ -1,5 +1,10 @@
 import styled from 'styled-components'
 
+export const Main = styled.main`
+    margin-top: 5em;
+`
+
+
 const GroupGrid = styled.div`
     display: grid;
     width: 80%;

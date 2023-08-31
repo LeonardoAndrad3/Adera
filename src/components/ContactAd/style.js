@@ -1,18 +1,15 @@
 import styled from 'styled-components'
 import * as Style from '~/pages/home/About/style';
 
-
-
 export const Main = styled.main`
     background: #2B2D2F;
-    width: 40%;
+    width: 50%;
     height: 300px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 80%;
     align-items: center;
     position: absolute;
-    transform: translate(${window.screen.width/100+100}%, 60%);
     border-radius: 8px;
 
     @media (max-width:1400px) {

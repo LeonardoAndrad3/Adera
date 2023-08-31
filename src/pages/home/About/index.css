@@ -1,0 +1,25 @@
+.titleAbout{
+    top: 5em;
+    left: -5em;
+}
+
+.adAbout{
+    bottom: -45%;
+    right: 5%;
+}
+
+@media (max-width: 900px) {
+    .titleAbout{
+        left: -2em;
+        top: 3em;
+    }
+}
+
+@media (min-width: 2800px){
+    
+    .adAbout{
+        bottom: -35%;
+        right: 5%;
+    }
+
+}
